@@ -1,0 +1,103 @@
+/*
+	 * This method takes two parameters: 1- A is a boolean variable 2- Integer n
+	 * number of elements of the array, assume n > 0
+	 * 
+	 * Your job is to return an array that it's first element is A then it flips up
+	 * to n
+	 *
+	 * Note that you will return a boolean array with size n
+	 * 
+	 * Example: input : A -> T, number of elements -> 5, the returned Array should
+	 * be {T,F,T,F,T}
+	 */
+	public static boolean[] flipThem(boolean A, int n) {
+
+		return null;
+
+	}
+
+	/*
+	 * This method takes two parameters: 1- An array of Strings (a string contain
+	 * many words)
+	 * 
+	 * Your job is to return an array that each word in the string should has a
+	 * capital letter at the beginning of each word )
+	 *
+	 * Note that you will return a String array with the same size as the input
+	 * array
+	 * 
+	 * Example: input : [Ahmad is a good boy, I lova KSA, to be or not to be] number
+	 * of elements -> 3 the returned Array should be {Ahmad Is A Good Boy, I Love
+	 * KSA, To Be Or Not To Be}
+	 */
+	public static String[] MakeTheFirstLetterCapital(String[] name) {
+
+		return null;
+
+	}
+
+	/*
+	 * This method takes two parameters: 1- Integer range 2- Integer Array of length
+	 * (range - 1) containing numbers (1 -> range) except one number
+	 * 
+	 * Your job is to find the missing number in the array, assume that the array is
+	 * not empty
+	 *
+	 * Note that the numbers in the array are not sorted! Note that each number in
+	 * range exist only once in the array except the missing number!
+	 * 
+	 * Example: input array -> {2, 5, 3, 1}, range -> 5, the missing number is 4
+	 */
+	public static int findMissingElement(int[] arr, int range) {
+
+		return -1;
+
+	}
+
+	/*
+	 * This method takes two parameters: 1- Integer sum 2- Integer Array
+	 * 
+	 * Your job is to find a pair of numbers that add up to The given Sum Integer,
+	 * if the pair exist then the method returns true, otherwise returns false
+	 * 
+	 * assume that the array is not empty
+	 * 
+	 * Example: input array -> {2, 5, 3, 1}, Sum Integer -> 8, returns true {5, 3}
+	 */
+	public static boolean findPair(int[] arr, int sum) {
+
+		return false;
+
+	}
+
+	/*
+	 * This method takes two parameters: 1- Integer k 2- Integer Array
+	 * 
+	 * Your job is to reverse the array by k elements and return the reversed array
+	 * 
+	 * assume that k is less than or equals have the array length and also assume
+	 * that the array is not empty
+	 * 
+	 * Example: input array -> {2, 5, 3, 4, 3, 1}, k Integer -> 2, the returned
+	 * array after being reversed by k elements {1, 3, 3, 4, 5, 2}
+	 */
+	public static int[] reverse(int[] array, int k) {
+
+		return null;
+
+	}
+
+	/*
+	 * This method takes one parameter: 1- Integer N
+	 * 
+	 * Your job is to find the number of ways i can form 'N' using the numbers {1,
+	 * 3, 5}
+	 * 
+	 * Hint: for this method, you may create any private helper method
+	 * 
+	 */
+	public static int formN(int n) {
+
+		return -1;
+
+	}
