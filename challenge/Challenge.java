@@ -3,9 +3,8 @@ package challenge;
 public class Challenge {
 
 	public static void main(String[] args) {
-
+		// test
 	}
-	
 	
 	public static boolean[] flibTime(boolean bool, int n) {
 		boolean[] result = new boolean[n];
@@ -14,11 +13,10 @@ public class Challenge {
 			result[i] = element;
 			element = !element;
 		}
-		
 		return result;
 	}
 
-	public static String makeTheFirstLetterCapital (String s) {
+	public static String makeTheFirstLetterCapital(String s) {
 		String result = "";
 		String firstLetter = "";
 		String restOfWord = "";
@@ -74,12 +72,11 @@ public class Challenge {
 	}
 	
 	public static int formN(int n) {
-		
 		int count = 0;
 		int[] numbers = {1, 3, 5};
 		for (int i = 0; i < numbers.length; i++) {
 			for(int y = 0; y< numbers.length; y++) {
-				if( ( numbers[i] + numbers[y] ) == n ) {
+				if((numbers[i] + numbers[y]) == n) {
 					count++;
 				}
 			}
